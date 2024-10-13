@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3b2f2f;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #2a2424;
+    padding: 1em 1.25em;
+    border-radius: 0.625em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.4);
+    margin: 1.25em 0.625em;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+    gap: 1em; 
+}
+
+.logo h1 {
+    color: #f5deb3;
+    font-size: 1.5em;
+}
+
+.search-bar {
+    display: flex;
+    margin-top: 1em;
+}
+
+.search-bar input {
+    padding: 0.3125em;
+    border: 1px solid #ccc;
+    border-radius: 0.3125em 0 0 0.3125em;
+}
+
+.search-bar button {
+    padding: 0.3125em 0.625em;
+    background-color: #9e7d3e;
+    color: rgb(104, 23, 23);
+    border: none;
+    border-radius: 0 0.3125em 0.3125em 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #7c6d2f;
+    color: #ffffff;
+}
+
+.user-options {
+    display: flex;
+    margin-top: 1em;
+    gap: 1em;
+}
+
+.user-options a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 3em;
+    background-image: url(banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 31.25em;
+    border-radius: 0.625em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.4);
+}
+
+.hero-content h1 {
+    color: #c2b280;
+    font-size: 1.875em;
+}
+
+.hero-content h2 {
+    color: #75726c;
+    font-size: 1.125em;
+    margin-top: 0.3125em;
+    text-shadow: 0.0625em 0.0625em 0.125em rgba(0, 0, 0, 0.6);
+}
+
+.hero-content button {
+    background-color: #130a03;
+    color: #ffffff;
+    padding: 0.3125em 0.3125em;
+    border: none;
+    border-radius: 0.3125em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+    background-color: #a0522d;
+}
+
+
+.produtos-container {
+    padding: 0.4125em 0.825em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1em;
+    margin: 1.25em 0.625em;
+}
+
+.produto {
+    background-color: #2a2424;
+    border-radius: 0.625em;
+    padding: 1em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.preco-de {
+    font-size: 0.8em;
+}
+
+.preco {
+    color: #c4a702;
+}
+
+.preco-antigo {
+    color: #A9A9A9;
+}
+
+.descricao {
+    font-size: 1em;
+    color: #e7e4e4;
+}
+
+.botoes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto; 
+}
+
+
+
+.comprar {
+    background-color: #8b0000;
+    color: #ffffff;
+    border: none;   
+    border-radius: 0.3125em;
+    cursor: pointer;
+    padding: 0.5em;
+    transition: background-color 0.3s;
+}
+
+.comprar:hover {
+    background-color: #B22222; 
+}
+
+.addcarrinho{
+    background-color: #053305; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 0.3125em;
+    cursor: pointer;
+    padding: 0.5em;
+    transition: background-color 0.3s; 
+}
+
+.addcarrinho:hover{
+    background-color: #146414;
+}
+
+footer{
+    background-color: #2a2424;
+    padding: 0.5em 1em;
+    border-radius: 0.625em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.4);
+    margin: 1.25em 0.625em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 1024px) {
+    .header-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .search-bar {
+        margin-bottom: 1em;
+        width: 100%;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .search-bar input {
+        margin: 1em;
+    }
+   
+    .user-options {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-bar {
+        width: 100%; 
+        margin-bottom: 1em; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-options {
+        justify-content: center;
+        gap: 0.5em; 
+    }
+
+    .search-bar input {
+        margin: 1em;
+    }
+ 
+    .produtos-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .botoes-container {
+        padding: 0.75em;
+    }
+    
+}

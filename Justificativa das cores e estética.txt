@@ -1,0 +1,29 @@
+Justificativa de Design e Conceito
+
+1. Conceito da Empresa
+	A "Whisky Company" é uma empresa fictícia que tem como conceito a venda de whiskies premium de alta qualidade. O site busca proporcionar uma experiência refinada para os clientes, destacando produtos luxosos. Cada detalhe do site, da interface à apresentação dos produtos, foi pensado para reforçar a ideia de exclusividade e autenticidade.
+
+2. Público-Alvo
+	O público-alvo da "Whisky Company" é de homens e mulheres adultos, geralmente entre 25 e 60 anos, que gostam de Whisky e que valorizam produtos de alta qualidade e têm interesse em experiências luxuosas. Além disso, são indivíduos com poder aquisitivo mais elevado, que valorizam não só o produto, mas também a experiência de compra e o ambiente envolvente.
+
+3. Justificativa da Utilização de Cores
+	A escolha das cores foi feita com base no conceito da marca, buscando criar uma atmosfera de luxo e tradição. Os tons terrosos, como o marrom escuro, são para remeter aos ambientes das destilarias, lembrando ao envelhecimento do whisky em barris de carvalho, o que traz uma conexão direta com o produto. Já o dourado, que inclusive é próximo a cor do próprio Whisky, foi utilizado para destacar elementos importantes como preços, promoções e títulos, trazendo uma sensação de luxo e exclusividade. 
+	Essas cores também foram escolhidas por sua capacidade de criar um ambiente acolhedor e ao mesmo tempo elegante, reforçando a ideia de que o cliente está em uma loja que oferece algo especial e de alta qualidade.
+
+4. Justificativa do Esquema de Cores Utilizado
+
+    • Fundo e Texto Principal:
+      O fundo da página foi definido como #3b2f2f (um marrom escuro, que foi explicado acima a escolha), e o texto em branco fornece um alto-contraste, garantindo boa legibilidade. Essa escolha segue as diretrizes de acessibilidade de contraste de cores, que recomenda um contraste suficiente entre o fundo e o texto para facilitar a leitura em diferentes dispositivos e condições de luz​. 
+      
+    • Header e Elementos Importantes:
+      O header usa uma cor de fundo mais escura #2a2424, que está em harmonia com o fundo geral, criando uma separação visual clara entre o cabeçalho e o restante do conteúdo. O texto do logo em #f5deb3 (bege claro) se destaca por estar em forte contraste com o fundo, enfatizando a marca de forma elegante​, remetendo a cores próximas do Whisky. 
+      
+    • Botões e Ações do Usuário:
+      Os botões principais como "Adicionar ao Carrinho" usam cores que indicam ação e são bastante chamativas: #053305 (verde escuro) para o botão de adicionar ao carrinho, e #8b0000 (vermelho escuro) para o botão de compra. Estas cores, associadas a tons de ação positiva (verde) e de urgência ou importância (vermelho), ajudam a guiar o usuário nas decisões​. Essa combinação entre verde e vermelho utiliza o contraste de significados: o verde encoraja ações iniciais e suaves (adicionar ao carrinho), enquanto o vermelho intensifica a urgência de finalizar a compra, criando uma experiência de compra clara e intuitiva.
+      
+    • Seções Hero e Preços:
+      A seção hero, que contém um banner, utiliza um fundo com imagem (background-image) e cores textuais em tons claros como #c2b280 (dourado claro) para os títulos, e #75726c para os subtítulos, mantendo um equilíbrio visual que combina com o tema de whisky, remetendo a tradições e sofisticação. Além disso, os preços em promoção são destacados com #c4a702 (dourado), sugerindo luxo e valor.
+
+
+5. Responsividade e Usabilidade
+A responsividade foi outro ponto crucial no desenvolvimento da interface. Criei um layout que se adapta perfeitamente a diferentes dispositivos, como desktops, tablets e smartphones. Isso garante que o site seja acessível e ofereça uma boa experiência para todos os tipos de usuários, independentemente de onde estejam acessando. Utilizamos CSS Grid e Flexbox para organizar o conteúdo, permitindo que ele se reorganize de forma fluida conforme o tamanho da tela.
